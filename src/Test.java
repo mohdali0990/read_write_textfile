@@ -10,6 +10,7 @@ public class Test {
         List<String> names = new ArrayList<>();
         Scanner scanner = new Scanner(System.in);
         System.out.println("hello");
+        System.out.println("hi");
 
         while(true) {
             System.out.println("Press 1 to add names\nPress 2 to exit");
