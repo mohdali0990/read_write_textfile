@@ -11,6 +11,7 @@ public class Test {
         Scanner scanner = new Scanner(System.in);
         System.out.println("hello");
         System.out.println("hi");
+        System.out.println("how are you");
 
         while(true) {
             System.out.println("Press 1 to add names\nPress 2 to exit");
