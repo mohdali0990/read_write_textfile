@@ -26,8 +26,8 @@ public class Test {
             else if(choice==2) { //// this option does not work properly. cant figure out why?
                 File file = new File("saveName.txt");
                 Scanner scanner1 =new Scanner(file);
-                System.out.println("Please search name");
-                String checkName = scanner1.nextLine();// debugging works fine until here.
+                System.out.println("Please search name.Please enter name");
+                String checkName = scanner.nextLine();// debugging works fine until here.
 
               while(scanner1.hasNextLine()) {
                   if (checkName.equals(scanner1.nextLine().trim())) {
